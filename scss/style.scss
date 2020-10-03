@@ -1,0 +1,208 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font-family-theme;
+    h1{
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+}
+//section header
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        margin-left: 30px;
+    }
+    
+    nav{
+        ul{
+            display: flex;
+            li{
+                margin-right: 30px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                a:hover{
+                    color: $color-theme;
+                    border-top: 1px solid $color-theme;
+                    padding-top: 5px;
+                }
+
+            }
+        }
+
+    }
+}
+//section main 
+main{
+    @include marge-gnral;
+    .section-recherche{
+        margin-bottom: 40px;
+        .sous-titre{
+            margin-top: -10px;
+           
+        }
+        #searchbar{
+            display: flex;
+            margin-top: 40px;
+            .map{
+                width: 40px;
+                height: 34px;
+                border: none;
+                border-radius: 8px 0 0 8px;
+            }
+            input{
+                height: 30px;
+                border-top: 1px solid $color-fond;
+                border-bottom: 1px solid $color-fond;
+                border-left: none;
+                border-right: none;
+                padding-left: 10px;
+            }
+            .search{
+                background-color: $color-theme;
+                color: white;
+                border: none;
+                border-radius: 0 8px 8px 0;
+            }
+            
+            
+        }
+        .filtres{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            .btn{
+                margin-left: 40px;
+                text-align: center;
+                .btn-filtres{
+                    height: 30px;
+                    margin-right: 20px;
+                    border:2px solid $color-fond;
+                    border-radius: 20px 20px;
+                    background-color: white;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    
+    
+                }
+            }
+        }
+        .icon-info{
+            color:$color-theme ;
+            border:2px solid $color-fond;
+            border-radius: 50% 50%;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+        }
+    }
+    .section-hebergement{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .hebergement-Marseille{
+            max-width: 70%;
+            background-color:$color-fond ;
+            border-radius: 10px 10px;
+            h2{
+                padding-left: 30px;
+                padding-top: 15px;   
+            }
+            .galery-hebergement{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin:30px;
+               .etiquette{
+                   margin-bottom: 30px;
+               }
+            }
+           
+            a{
+                text-decoration: none;
+                color: black;
+                .price{
+                    font-weight: 800;
+                }
+            }
+           
+            a .hebergement{
+                width: 250px;
+                height: 200px ;
+                display: block;
+                border: 4px solid white;
+                border-radius: 10px 10px;
+                
+            }
+            a .name{
+                height: 80px;
+                background-color: white;
+                line-height: 0.4rem;
+                border-radius: 0 0 10px 10px;
+                padding-top: 5px ;
+                padding-left: 10px;
+                margin-top: -1px; 
+                
+            }
+            .icon-blue{
+                color: $color-theme;
+                
+            }
+            .icon-gray{
+                color:$color-fond;
+            }
+            .photo-hebergement-cannebiere{
+                background: url(../images/hebergements/4_small/La-Cannebiere.jpg);
+                @include photo-hebergement;
+            }
+            .photo-hebergement-port{
+                background: url(../images/hebergements/4_small/hotel-du-port.jpg);
+                @include photo-hebergement;
+            }
+            .photo-hebergement-mouettes{
+                background: url(../images/hebergements/4_small/les-mouettes.jpg);
+                @include photo-hebergement;
+            }
+            .photo-hebergement-mer{
+                background: url(../images/hebergements/4_small/hotel-de-la-mer.jpg);
+                @include photo-hebergement;
+            }
+            .photo-hebergement-panier{
+                background: url(../images/hebergements/4_small/hotel-le-panier.jpg);
+                @include photo-hebergement;
+            }
+            .photo-hebergement-amina{
+                background: url(../images/hebergements/4_small/chez-amina.jpg);
+                @include photo-hebergement;
+            }
+
+        }
+       .hebergement-marseille-populaire{
+        max-width: 30%;
+        background-color:$color-fond ;
+        border-radius: 10px 10px;
+       } 
+    }
+
+}
