@@ -229,6 +229,13 @@ body {
 @media only screen and (min-width: 1280px) {
   main .section-activites {
     margin-top: 30px; }
+    main .section-activites .activites-bloc {
+      display: flex;
+      justify-content: space-between; }
+    main .section-activites .item-2, main .section-activites .item-4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
     main .section-activites .activite-large {
       width: 300px;
       height: 500px;
@@ -236,7 +243,7 @@ body {
       box-shadow: 5px 5px 2px 1px #F2F2F2; }
     main .section-activites .name-activites {
       background-color: white;
-      height: 35px;
+      height: 20px;
       text-align: center;
       border-radius: 0 0 10px 10px; }
     main .section-activites a {
@@ -299,7 +306,8 @@ body {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #F2F2F2; }
+  background-color: #F2F2F2;
+  margin-top: 30px; }
   footer .footer-info ul {
     list-style: none;
     margin-left: 0;

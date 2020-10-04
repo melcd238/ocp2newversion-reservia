@@ -248,6 +248,15 @@ main{
     .section-activites{
         @include responsive(large){
             margin-top: 30px;
+            .activites-bloc{
+                display: flex;
+                justify-content: space-between;
+            }
+            .item-2, .item-4{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
             .activite-large{
                 width: 300px ;
                 height: 500px;
@@ -256,7 +265,7 @@ main{
             }
             .name-activites{
                 background-color: white;
-                height: 35px;
+                height: 20px;
                 text-align: center;
                 border-radius: 0 0 10px 10px;
 
@@ -339,6 +348,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: $color-fond;
+    margin-top: 30px;
     .footer-info ul {
         list-style: none;
         margin-left: 0;
