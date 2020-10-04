@@ -241,11 +241,57 @@ body {
       border-radius: 0 0 10px 10px; }
     main .section-activites a {
       text-decoration: none;
-      color: black; }
+      color: black;
+      font-weight: 400; }
     main .section-activites .photo-activites-large-port {
       background: url(../images/activites/4_small/vieux-port.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: auto 100%;
       border-radius: 10px 10px 0 0;
-      height: 450px; } }
+      height: 450px; }
+    main .section-activites .photo-activites-large-calanques {
+      background: url(../images/activites/4_small/parc-National-Calanques.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto 100%;
+      border-radius: 10px 10px 0 0;
+      height: 450px; }
+    main .section-activites .activite-medium {
+      width: 300px;
+      height: 260px;
+      border-radius: 10px 10px;
+      box-shadow: 5px 5px 2px 1px #F2F2F2; }
+    main .section-activites .photo-activites-medium-fort {
+      background: url(../images/activites/4_small/fort-pomegues.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% auto;
+      border-radius: 10px 10px 0 0;
+      height: 225px; }
+    main .section-activites .photo-activites-medium-longchamp {
+      background: url(../images/activites/4_small/parc-longchamp.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% auto;
+      border-radius: 10px 10px 0 0;
+      height: 225px; }
+    main .section-activites .activite-small {
+      width: 300px;
+      height: 180px;
+      border-radius: 10px 10px;
+      box-shadow: 5px 5px 2px 1px #F2F2F2; }
+    main .section-activites .photo-activites-small-ile {
+      background: url(../images/activites/4_small/iles-frioul.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% auto;
+      border-radius: 10px 10px 0 0;
+      height: 145px; }
+    main .section-activites .photo-activites-small-lagarde {
+      background: url(../images/activites/4_small/dame-garde.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% auto;
+      border-radius: 10px 10px 0 0;
+      height: 145px; } }
