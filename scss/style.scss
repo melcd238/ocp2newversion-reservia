@@ -90,6 +90,21 @@ main{
                     background-color: white;
                     padding-left: 15px;
                     padding-right: 15px;
+                    .filtres-fontawesome{
+                        border: $color-theme-clair 1px solid;
+                        background-color: $color-theme-clair;
+                        display: inline-block;
+                        border-radius: 20px 20px;
+                        height: 26px;
+                        width: 26px;
+                        margin-right: 20px;
+                        margin-left: -16px;
+                        margin-top: -2px;
+                    }
+                    .icon-filtres{
+                        color: $color-theme;
+                        padding-top: 6px ; 
+                    }
                     
     
                 }
