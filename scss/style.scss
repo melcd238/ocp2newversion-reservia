@@ -245,4 +245,37 @@ main{
        } 
     }
     }
+    .section-activites{
+        @include responsive(large){
+            margin-top: 30px;
+            .activite-large{
+                width: 300px ;
+                height: 500px;
+                border-radius: 10px 10px;
+                box-shadow: 5px 5px 2px 1px  $color-fond ;
+            }
+            .name-activites{
+                background-color: white;
+                height: 35px;
+                text-align: center;
+                border-radius: 0 0 10px 10px;
+
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .photo-activites-large-port{
+                background: url(../images/activites/4_small/vieux-port.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: auto 100%;
+                border-radius: 10px 10px 0 0;
+                height: 450px;
+               
+            }
+        }
+        
+
+    }
 }
