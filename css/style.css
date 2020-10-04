@@ -99,7 +99,7 @@ body {
         main .section-hebergement .hebergement-Marseille h2 {
           padding-left: 30px;
           padding-top: 15px; }
-        main .section-hebergement .hebergement-Marseille h3 {
+        main .section-hebergement .hebergement-Marseille .more {
           padding-left: 30px; }
         main .section-hebergement .hebergement-Marseille .galery-hebergement {
           display: flex;
@@ -220,13 +220,18 @@ body {
             background-size: 100% auto;
             border-radius: 10px 0 0 10px;
             width: 40%; }
-          main .section-hebergement .hebergement-marseille-populaire a .hebergement-pop .name-pop {
+          main .section-hebergement .hebergement-marseille-populaire a .hebergement-pop .descript-pop {
             width: 60%;
             box-sizing: content-box;
             background-color: white;
             border-radius: 0 6px 6px 0;
-            padding-left: 10px;
-            line-height: 0.9rem; } }
+            padding-left: 10px; }
+          main .section-hebergement .hebergement-marseille-populaire a .hebergement-pop .name-pop {
+            line-height: 0.9rem; }
+          main .section-hebergement .hebergement-marseille-populaire a .hebergement-pop .icon-star {
+            margin-top: 40px; }
+          main .section-hebergement .hebergement-marseille-populaire a .hebergement-pop .icon-star-coeur {
+            margin-top: 30px; } }
 
 @media only screen and (min-width: 1280px) {
   main .section-activites {
