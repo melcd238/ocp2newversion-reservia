@@ -118,6 +118,9 @@ main{
                 padding-left: 30px;
                 padding-top: 15px;   
             }
+            h3{
+                padding-left: 30px;  
+            }
             .galery-hebergement{
                 display: flex;
                 flex-direction: row;
@@ -247,7 +250,7 @@ main{
     }
     .section-activites{
         @include responsive(large){
-            margin-top: 30px;
+            margin-top: 50px;
             .activites-bloc{
                 display: flex;
                 justify-content: space-between;
@@ -348,7 +351,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: $color-fond;
-    margin-top: 30px;
+    margin-top: 50px;
     .footer-info ul {
         list-style: none;
         margin-left: 0;

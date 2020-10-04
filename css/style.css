@@ -99,6 +99,8 @@ body {
         main .section-hebergement .hebergement-Marseille h2 {
           padding-left: 30px;
           padding-top: 15px; }
+        main .section-hebergement .hebergement-Marseille h3 {
+          padding-left: 30px; }
         main .section-hebergement .hebergement-Marseille .galery-hebergement {
           display: flex;
           flex-direction: row;
@@ -228,7 +230,7 @@ body {
 
 @media only screen and (min-width: 1280px) {
   main .section-activites {
-    margin-top: 30px; }
+    margin-top: 50px; }
     main .section-activites .activites-bloc {
       display: flex;
       justify-content: space-between; }
@@ -307,7 +309,7 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #F2F2F2;
-  margin-top: 30px; }
+  margin-top: 50px; }
   footer .footer-info ul {
     list-style: none;
     margin-left: 0;
