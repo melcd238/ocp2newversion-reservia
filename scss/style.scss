@@ -334,3 +334,15 @@ main{
 
     }
 }
+//footer
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-fond;
+    .footer-info ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: -10px;
+    }
+}
